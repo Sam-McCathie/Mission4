@@ -14,7 +14,7 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.05em;
-  margin: 35px 0 16px 600px;
+  margin: 35px 0 16px 730px;
 }
 
 /* Circle properties */
@@ -33,7 +33,7 @@ h1 {
 
 #CircleOne {
   border: 5px solid #000000;
-  margin-left: 358px;
+  margin-left: 440px;
 }
 
 #CircleTwo,
@@ -58,7 +58,7 @@ h1 {
 #HeadingRight {
   width: 100%;
   text-align: right;
-  margin-right: 20px; /* */
+  margin-right: 40px; /* */
 }
 
 .HeadingRightTxt {
@@ -100,7 +100,7 @@ h1 {
 }
 
 .QuoteDetails {
-  margin-left: 318px;
+  margin-left: 400px;
 }
 
 .PersonalDetails {

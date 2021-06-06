@@ -8,7 +8,7 @@ import GetQuoteFooter from "./GetQuoteFooter";
 
 function GetQuote() {
   return (
-    <div className="Resolution">
+    <div>
       <GetQuoteHeader />
       <GetQuoteBody />
       <GetQuoteFooter />

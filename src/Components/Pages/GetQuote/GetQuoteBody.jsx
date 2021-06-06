@@ -30,9 +30,45 @@ function GetQuoteBody() {
           </h3>
         </div>
         <div className="OptionFlex">
-          <h3 className="QuoteOption">Do you use your car for business?</h3>
+          <h3 className="QuoteOption Modifications">
+            Do you use the car for business?
+          </h3>
+        </div>
+        <div className="OptionFlex">
+          <h3 className="QuoteOption PaymentOptions">Payment options</h3>
+          <label for="myRadioId" className="QuoteOption radio">
+            <input
+              type="radio"
+              name="myRadioField"
+              id="myRadioId"
+              className="radio__input"
+            />
+            <div className="radio__radio"></div>
+            Per year
+          </label>
+          <label for="myRadioId2" className="QuoteOption radio">
+            <input
+              type="radio"
+              name="myRadioField"
+              id="myRadioId2"
+              className="radio__input"
+            />
+            <div className="radio__radio"></div>
+            Per month
+          </label>
+          <label for="myRadioId3" className="QuoteOption radio">
+            <input
+              type="radio"
+              name="myRadioField"
+              id="myRadioId3"
+              className="radio__input"
+            />
+            <div className="radio__radio"></div>
+            Per week
+          </label>
         </div>
       </div>
+
       <div id="BodyRight">
         <h3 id="QuoteOutput">QUOTE OUTPUT</h3>
       </div>

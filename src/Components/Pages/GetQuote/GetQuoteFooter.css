@@ -1,8 +1,7 @@
 #Footer {
-  margin-left: 76px;
+  margin-left: 213px;
   margin-top: 16px;
   display: flex;
-  width: 1533px;
 }
 
 .ResetButton,
@@ -14,6 +13,7 @@
   line-height: 28px;
   color: #000000;
   border: 2px solid #000000;
+  border-radius: 45px;
 }
 
 .ResetButton {
