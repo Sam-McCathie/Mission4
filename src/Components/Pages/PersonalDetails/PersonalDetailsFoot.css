@@ -1,0 +1,42 @@
+#Footer {
+  margin-left: 216px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.BackButton,
+.DraftButton {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 45px;
+}
+
+.BackButton {
+  padding: 21px 60px;
+}
+
+.DraftButton {
+  padding: 21px 10px;
+  margin-left: 39px;
+}
+
+.NextButton {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  padding: 19px 72px;
+  background-color: #000000;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 45px;
+  margin-left: 860px;
+}
