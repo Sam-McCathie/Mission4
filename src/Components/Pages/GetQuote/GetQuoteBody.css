@@ -1,0 +1,112 @@
+h3 {
+  margin: 0;
+}
+
+.Resolution {
+  width: 1680px;
+  height: 879px;
+}
+
+#Body {
+  width: 1533px;
+  height: 533px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  margin: 18px 0 0 76px;
+}
+
+#QuoteHeader,
+.OptionFlex,
+#Body {
+  display: flex;
+}
+
+#HeaderMain {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #645f5f;
+  margin: 39px 90px 0 40px;
+}
+
+.HeaderOption {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #645f5f;
+  background-color: #c4c4c4;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 30px 15px 0 0;
+}
+
+.QuoteOption {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #645f5f;
+  margin-left: 40px;
+}
+
+.PolicyStartDiv {
+  margin-top: 16px;
+}
+
+.DateOption {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  padding: 16px 40px;
+  border: 1px solid #000000;
+}
+
+.PolicyStart {
+  margin-top: 25px;
+  margin-right: 50px;
+}
+
+.RegoSearchDiv {
+  margin-top: 24px;
+  margin-bottom: 173px;
+}
+
+.RegoSearchTxt {
+  margin-top: 12px;
+}
+
+#Textbox {
+  width: 163px;
+  height: 54px;
+  background: #fffdfd;
+  border: 1px solid #000000;
+  margin: 0 -14px 0 50px;
+}
+
+.Modifications {
+  margin-bottom: 18px;
+}
+
+#BodyRight {
+  margin-left: 30px;
+}
+
+#QuoteOutput {
+  padding: 194px 75px 222px 76px;
+  background: #c4c4c4;
+  margin: 46px 0px 0 84px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}

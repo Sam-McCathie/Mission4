@@ -1,0 +1,42 @@
+#Footer {
+  margin-left: 76px;
+  margin-top: 16px;
+  display: flex;
+  width: 1533px;
+}
+
+.ResetButton,
+.DraftButton {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.ResetButton {
+  padding: 21px 60px;
+}
+
+.DraftButton {
+  padding: 21px 10px;
+  margin-left: 41px;
+}
+
+.NextButton {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  padding: 21px 60px;
+  background-color: #000000;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 45px;
+  margin-left: 915px;
+}

@@ -3,7 +3,8 @@ h1 {
   margin: 0;
 }
 
-#Heading {
+#Heading,
+#Progress {
   display: flex;
 }
 
@@ -76,4 +77,36 @@ h1 {
   height: 67px;
   width: 67px;
   margin: 10px 0 10px 0;
+}
+
+.CurrentProgress,
+.ProgressOption {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  letter-spacing: 0.05em;
+  margin-top: 31px;
+}
+
+.CurrentProgress {
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+.ProgressOption {
+  font-weight: normal;
+}
+
+.QuoteDetails {
+  margin-left: 318px;
+}
+
+.PersonalDetails {
+  margin-left: 290px;
+}
+
+.ReviewBuy {
+  margin-left: 270px;
 }

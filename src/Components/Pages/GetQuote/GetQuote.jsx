@@ -1,4 +1,5 @@
 import React from "react";
+import "./GetQuote.css";
 
 //Components
 import GetQuoteHeader from "./GetQuoteHeader";
@@ -7,7 +8,7 @@ import GetQuoteFooter from "./GetQuoteFooter";
 
 function GetQuote() {
   return (
-    <div>
+    <div className="Resolution">
       <GetQuoteHeader />
       <GetQuoteBody />
       <GetQuoteFooter />
