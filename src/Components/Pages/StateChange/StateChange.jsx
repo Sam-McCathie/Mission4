@@ -4,6 +4,7 @@ import "./StateChange.css";
 //Stages of quote
 import GetQoute from "../GetQuote/GetQuote";
 import PersonalDetails from "../PersonalDetails/PersonalDetails";
+import ReviewBuy from "../ReviewBuy/ReviewBuy";
 
 class StateChange extends Component {
   state = {
@@ -28,7 +29,7 @@ class StateChange extends Component {
       );
     }
 
-    // get and instant quote
+    // Get an instant quote
     else if (this.state.whichComponentToShow === "QuoteDetails") {
       return (
         <div>
@@ -79,14 +80,21 @@ class StateChange extends Component {
     else if (this.state.whichComponentToShow === "ReviewBuy") {
       return (
         <div>
-          <h1>ReviewBuy</h1>
-          <button
-            onClick={() =>
-              this.setState({whichComponentToShow: "QuoteDetails"})
-            }
-          >
-            Back
-          </button>
+          <ReviewBuy />
+          <div id="RBFooter">
+            {/*use props and re-use the code here -> replace paths*/}
+            <h1
+              className="BackButton"
+              onClick={() =>
+                this.setState({whichComponentToShow: "PersonalDetails"})
+              }
+            >
+              BACK
+            </h1>
+            <h1 className="DraftButton">SAVE AS DRAFT</h1>
+            <h1 className="MakePaymentButton">MAKE PAYMENT</h1>
+          </div>
+          <button>Redirect</button>
         </div>
       );
     }

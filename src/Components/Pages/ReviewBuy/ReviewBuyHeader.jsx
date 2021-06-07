@@ -14,15 +14,15 @@ function ReviewBuyHeader() {
           </div>
           <div id="StatusCircles">
             <div id="CircleOne">
-              <h2 className="CircleNumber">1</h2>
+              <h3 className="CircleNumber">1</h3>
             </div>
             <div className="ConnectorLine"></div>
             <div id="CircleTwo">
-              <h2 className="CircleNumber">2</h2>
+              <h3 className="CircleNumber">2</h3>
             </div>
             <div className="ConnectorLine"></div>
             <div id="CircleThree">
-              <h2 className="CircleNumber">3</h2>
+              <h3 className="CircleNumber">3</h3>
             </div>
           </div>
         </div>
