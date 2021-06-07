@@ -1,0 +1,448 @@
+.HmeBody {
+    width: 100vw;
+    height: 100vw;
+    background-color: white;
+}
+.h1OB {
+    position: absolute;
+    left: 40%;
+    top: 65%;
+    font-family: "roboto";
+}
+
+.Body1 {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 150px;
+    top: 480px;
+}
+.Body2 {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 43%;
+    top: 480px;
+}
+.Body3 {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    right: 150px;
+    top: 480px;
+}
+.QuoteBtn2 {
+    padding: 15px 15px;
+    background-color: #43b8fe;
+    border-radius: 24px;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    left: 43%;
+    top: 800px;
+    font-size: 14px;
+}
+.BodyTitle1 {
+    font-size: 22px;
+    position: absolute;
+    top: 650px;
+    width: 250px;
+    text-align: center;
+    left: 100px;
+}
+.BodyTitle2 {
+    font-size: 22px;
+    position: absolute;
+    top: 650px;
+    width: 250px;
+    text-align: center;
+    left: 40%;
+}
+.BodyTitle3 {
+    font-size: 22px;
+    position: absolute;
+    top: 650px;
+    width: 250px;
+    text-align: center;
+    right: 100px;
+}
+
+/* Comparison Chart Section */
+.h1CC {
+    position: absolute;
+    left: 38%;
+    top: 900px;
+    font-family: "roboto"
+}
+.ComparisonChart {
+    width: 100vw;
+    background-color: white;
+}
+.CompChart {
+    border: 3px solid black;
+    width: 80%;
+    height: 300px;
+    z-index: 1000;
+    position: absolute;
+    bottom: -700px;
+    left:10%;
+    align-self: center;
+    box-shadow:
+    0 5px 5px 0px #333,
+    5px 0 5px 0px #333; ;
+}
+.Line1 {
+    border-bottom: 3px solid black;
+    z-index: 2000;
+    width: 90%;
+    position: absolute;
+    margin: 70px 0px 0px 50px;
+}
+.Line2 {
+    border-bottom: 3px solid black;
+    z-index: 2000;
+    width: 90%;
+    position: absolute;
+    margin: 120px 0px 0px 50px;
+}
+.Line3 {
+    border-bottom: 3px solid black;
+    z-index: 2000;
+    width: 90%;
+    position: absolute;
+    margin: 170px 0px 0px 50px;
+}
+.Line4 {
+    border-bottom: 3px solid black;
+    z-index: 2000;
+    width: 90%;
+    position: absolute;
+    margin: 220px 0px 0px 50px;
+}
+
+.CC1, .CC2, .CC3 {
+    font-size: 16px;
+}
+.CC1 {
+    position: absolute;
+    left: 370px;
+}
+.CC2 {
+    position: absolute;
+    right: 280px;
+}
+.CC3 {
+    position: absolute;
+    right: 120px;
+}
+.CC4 {
+    position: absolute;
+    font-size: 16px;
+    left: 60px;
+    top: 50px;
+}
+.CC5 {
+    position: absolute;
+    font-size: 16px;
+    left: 60px;
+    top: 100px;
+}
+.CC6 {
+    position: absolute;
+    font-size: 16px;
+    left: 60px;
+    top: 150px;
+}
+.Tick1 {
+    position: absolute;
+    left: 420px;
+    top: 80px;
+}
+.Tick2 {
+    position: absolute;
+    left: 640px;
+    top: 80px;
+}
+.Tick3 {
+    position: absolute;
+    right: 140px;
+    top: 80px;
+}
+.Tick4 {
+    position: absolute;
+    left: 420px;
+    top: 130px;
+}
+.Tick5 {
+    position: absolute;
+    left: 640px;
+    top: 130px;
+}
+.Tick6 {
+    position: absolute;
+    left: 420px;
+    top: 180px;
+}
+.x1 {
+    position: absolute;
+    left: 640px;
+    top: 180px;
+}
+.x2 {
+    position: absolute;
+    right: 140px;
+    top: 180px;
+}
+.DropDwnTitle {
+    color: black;
+    position: absolute;
+    top: 220px;
+    left: 470px;
+}
+.DwnArrow {
+    position: absolute;
+    left: 500px;
+    top: 260px;
+}
+
+/* Home Body Bottom Half */
+.QuoteBtn3 {
+    padding: 15px 15px;
+    background-color: #43b8fe;
+    border-radius: 24px;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    left: 43%;
+    top: 1330px;
+    font-size: 14px;
+}
+.StepsTxt {
+    color: black;
+    position: absolute;
+    top: 1400px;
+    left: 380px;
+    text-decoration: underline black;
+}
+.BlueCircle1 {
+    width: 40px;
+    height: 40px;
+    background-color: #43b8fe;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 18px;
+    top: 1500px;
+    left: 200px; 
+}
+.BlueCircle2 {
+    width: 40px;
+    height: 40px;
+    background-color: #43b8fe;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 1500px;
+    left: 605px;
+}
+.BlueCircle3 {
+    width: 40px;
+    height: 40px;
+    background-color: #43b8fe;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 1500px;
+    right: 200px;
+    display: inline;
+}
+.BlueLine1 {
+    border-bottom: 3px solid #43b8fe;
+    z-index: 2000;
+    width: 30%;
+    position: absolute;
+    top: 1520px;
+    left: 645px;
+}
+.BlueLine2 {
+    border-bottom: 3px solid #43b8fe;
+    z-index: 2000;
+    width: 30%;
+    position: absolute;
+    top: 1520px;
+    left: 230px;
+}
+.Quote {
+    color: black;
+    position: absolute;
+    top: 1530px;
+    left: 170px;
+}
+.Details {
+    color: black;
+    position: absolute;
+    top: 1530px;
+    right: 570px;
+}
+.Review {
+    color: black;
+    position: absolute;
+    top: 1530px;
+    right: 150px;
+}
+.Reviews1 {
+    color: black;
+    position: absolute;
+    top: 1600px;
+    left: 570px;
+}
+.Profile {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 1700px;
+    left: 565px;
+}
+.ProfileTxt {
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    top: 1830px;
+    left: 420px;
+}
+.ProfileCircle1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid;
+    position: absolute;
+    top: 1920px;
+    left: 580px;
+}
+.ProfileCircle1:hover {
+    color: #43b8fe;
+    background-color: #43b8fe;
+}
+.ProfileCircle2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid;
+    position: absolute;
+    top: 1920px;
+    right: 615px;
+}
+.ProfileCircle2:hover {
+    color: #43b8fe;
+    background-color: #43b8fe;
+}
+.ProfileCircle3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid;
+    position: absolute;
+    top: 1920px;
+    right: 570px;
+}
+.ProfileCircle3:hover {
+    color: #43b8fe;
+    background-color: #43b8fe;
+}
+.FAQ {
+    color: black;
+    position: absolute;
+    top: 1980px;
+    right: 47%;
+}
+.FAQtxt1 {
+    position: absolute;
+    top: 2050px;
+    left: 160px;
+}
+.FAQLine1 {
+    border-bottom: 3px solid black;
+    z-index: 2000;
+    width: 80%;
+    position: absolute;
+    top: 2100px;
+    left: 160px;
+}
+.FAQtxt2 {
+    position: absolute;
+    top: 2100px;
+    left: 160px;
+}
+.FAQLine2 {
+    border-bottom: 3px solid black;
+    z-index: 1000;
+    width: 80%;
+    position: absolute;
+    top: 2150px;
+    left: 160px;
+}
+.FAQtxt3 {
+    position: absolute;
+    top: 2150px;
+    left: 160px;
+}
+.FAQLine3 {
+    border-bottom: 3px solid black;
+    z-index: 2000;
+    width: 80%;
+    position: absolute;
+    top: 2200px;
+    left: 160px;
+}
+.FAQtxt4 {
+    position: absolute;
+    top: 2200px;
+    left: 160px;
+}
+.FAQLine4 {
+    border-bottom: 3px solid black;
+    z-index: 2150;
+    width: 80%;
+    position: absolute;
+    top: 2250px;
+    left: 160px;
+}
+.DwnArrow1 {
+    position: absolute;
+    top: 2060px;
+    right: 130px;
+}
+.DwnArrow2 {
+    position: absolute;
+    top: 2110px;
+    right: 130px;
+}
+.DwnArrow3 {
+    position: absolute;
+    top: 2160px;
+    right: 130px;
+}
+.DwnArrow4 {
+    position: absolute;
+    top: 2210px;
+    right: 130px;
+}
+.DropDwnTitle2 {
+    color: black;
+    position: absolute;
+    left: 45%;
+    top: 2270px;
+}
+.DropDwnArrow2 {
+    color: black;
+    position: absolute;
+    left: 47%;
+    top: 2320px;
+}
+

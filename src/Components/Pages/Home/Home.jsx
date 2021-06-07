@@ -1,15 +1,16 @@
-import React from "react";
-
-import Login from "../../Re-use/Login";
-import Register from "../../Re-use/Register";
+import HomeHeader from './HomeHeader'
+import HomeBody from './HomeBody'
+import HomeFooter from './HomeFooter'
+import './Home.css'
 
 function Home() {
   return (
-    <div className="App">
-      <h1>Mission 4 Test Home</h1>
-      <Login />
-      <Register />
+    <div className='App'>
+      <HomeHeader />
+      <HomeBody />
+      <HomeFooter />
     </div>
-  );
+  )
 }
+
 export default Home;

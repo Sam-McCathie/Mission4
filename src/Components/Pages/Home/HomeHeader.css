@@ -1,0 +1,216 @@
+.App {
+    width: 1680px;
+    height: 330px;
+    background: blue;
+    font-family: "Nunito";
+}
+.header {
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+}
+.Logo {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    margin: 20px 50px;
+}
+.HeaderSearchBar {
+    width: 50px;
+    height: 15px;
+    padding: 2px 70px;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow:
+    0 5px 5px 0px #333,
+    5px 0 5px 0px #333;
+    z-index: 1000;
+    position: relative;
+    top: -100px;
+    right: -40%;
+}
+.Microscope {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 44.5%;
+    top: 34px;
+    z-index: 1000;
+    margin: none;
+}
+.Phone {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 500px;
+    top: 30px;
+}
+h2 {
+    color: #0076BE;
+    position: relative;
+    top: -55px;
+    left: 170px;
+    font-style: 'Lato', sans-serif;
+    font-weight: 850;
+}
+.PhoneNum {
+    position: absolute;
+    right: 31%;
+    top: 15px;
+    font-family: 'Roboto';
+}
+.NotificationBell {
+    width: 35px;
+    height: 25px;
+    margin: none;
+    position: absolute;
+    right: 27%;
+    top: 30px;
+}
+.UnderBell {
+    width: 15px;
+    height: 5px;
+    margin: none;
+    position: absolute;
+    right: 27.8%;
+    top: 60px;
+}
+.PinkCircle {
+    width: 15px;
+    height: 15px;
+    margin: none;
+    position: absolute;
+    right: 27.3%;
+    top: 27px;
+}
+.circle {
+    width: 33px;
+    height: 33px;
+   border-radius: 50%;
+    background-color: white;
+    border-style: solid;
+    z-index: 1000;
+    position: absolute;
+    position: absolute;
+    top: 5%;
+    right: 19.5%;
+}
+/* Home Header styles above */
+.HeaderMenu {
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    position: relative;
+    top: -10px;
+    margin: none;
+}
+.HeaderBtns {
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px;
+    margin-left: 60px;
+    font-size: 14px;
+    
+}
+.HeaderBtns:hover {
+    color: #43b8fe;
+}
+.HeaderBtn {
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px 400px;
+    font-size: 14px;
+}
+.HeaderBtn:hover {
+    color: #43b8fe;
+}
+.Icon {
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    right: 11%;
+}
+.HeaderID {
+    width: 100px;
+    position: absolute;
+    right: 11%;
+    top: 2.5%;
+}
+.LogOutBtn {
+    padding: 7px 15px;
+    background-color: #43b8fe;
+    border-radius: 18px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    box-shadow: 
+    0 3px 3px 0px #333,
+    3px 0 3px 0px #333;
+}
+.LogOutBtn:hover {
+    color: white;
+}
+
+/* Lower Header component */
+
+.HeaderBtmContainer {
+    height: 200px;
+    width: 100vw;
+    background-image: linear-gradient(to right, rgb(82, 81, 81) 1%, black 60%);
+    position: absolute;
+    margin: none;
+    top: 150px;
+}
+.QuoteBtn {
+    padding: 15px 15px;
+    background-color: #43b8fe;
+    border-radius: 24px;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    left: 4%;
+    top: 15%;
+    font-size: 14px;
+}
+.ContQuoteBtn {
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 24px;
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    left: 4%;
+    top: 55%;
+    font-size: 14px;
+}
+.ContQuoteBtn:hover {
+    color: #43b8fe;
+}
+.QuoteBtnd:hover {
+    color: black;
+}
+h5 {
+    color: white;
+    z-index: 1000;
+}
+.Driving {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 45%;
+}
+.gqh5 {
+    font-size: 18px;
+    position: absolute;
+    left: 21%;
+    top: 7%;
+}
+.rqh5 {
+    font-size: 18px;
+    position: absolute;
+    left: 21%;
+    top: 45%;
+}
