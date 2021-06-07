@@ -54,23 +54,32 @@ class StateChange extends Component {
       return (
         <div>
           <PersonalDetails />
-
-          <button
-            onClick={() =>
-              this.setState({whichComponentToShow: "QuoteDetails"})
-            }
-          >
-            Back
-          </button>
+          <div id="PDFooter">
+            <h1
+              className="BackButton"
+              onClick={() =>
+                this.setState({whichComponentToShow: "QuoteDetails"})
+              }
+            >
+              BACK
+            </h1>
+            <h1 className="DraftButton">SAVE AS DRAFT</h1>
+            <h1
+              className="NextButton"
+              onClick={() => this.setState({whichComponentToShow: "ReviewBuy"})}
+            >
+              NEXT
+            </h1>
+          </div>
         </div>
       );
     }
 
     // Review & Buy
-    else if (this.state.whichComponentToShow === "PersonalDetails") {
+    else if (this.state.whichComponentToShow === "ReviewBuy") {
       return (
         <div>
-          <h1>Personal Details</h1>
+          <h1>ReviewBuy</h1>
           <button
             onClick={() =>
               this.setState({whichComponentToShow: "QuoteDetails"})

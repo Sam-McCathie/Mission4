@@ -12,7 +12,7 @@ function GetQuoteHeader() {
             <h1 className="GetQuoteHeading">GET AN INSTANT QUOTE</h1>
           </div>
           <div id="StatusCircles">
-            <div id="CircleOne">
+            <div id="CircleOne" className="CurrentStatus">
               <h3 className="CircleNumber">1</h3>
             </div>
             <div className="ConnectorLine"></div>

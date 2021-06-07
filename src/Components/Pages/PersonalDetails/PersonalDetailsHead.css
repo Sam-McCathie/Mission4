@@ -8,13 +8,13 @@ h1 {
   display: flex;
 }
 
-.GetQuoteHeading {
+.PersonalDetailsHeading {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.05em;
-  margin: 35px 0 16px 810px;
+  margin: 35px 0 16px 820px;
 }
 
 /* Circle properties */
@@ -35,7 +35,7 @@ h1 {
   margin-left: 488px;
 }
 
-#CircleTwo {
+.CurrentStatus {
   border: 5px solid #000000;
 }
 

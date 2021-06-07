@@ -14,7 +14,7 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.05em;
-  margin: 35px 0 16px 730px;
+  margin: 35px 0 16px 780px;
 }
 
 /* Circle properties */
@@ -32,8 +32,11 @@ h1 {
 }
 
 #CircleOne {
-  border: 5px solid #000000;
   margin-left: 440px;
+}
+
+.CurrentStatus {
+  border: 5px solid #000000;
 }
 
 #CircleTwo,
