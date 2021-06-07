@@ -9,19 +9,19 @@ function GetQuoteHeader() {
         {/*Top div left side*/}
         <div id="HeadingLeft">
           <div>
-            <h1 className="GetQuoteHeading2">GET AN INSTANT QUOTE</h1>
+            <h1 className="GetQuoteHeading">GET AN INSTANT QUOTE</h1>
           </div>
           <div id="StatusCircles">
-            <div id="GQCircleOne">
-              <h3 className="GQCircleNumber">1</h3>
+            <div id="CircleOne">
+              <h3 className="CircleNumber">1</h3>
             </div>
             <div className="ConnectorLine"></div>
-            <div id="GQCircleTwo">
-              <h3 className="GQCircleNumber">2</h3>
+            <div id="CircleTwo">
+              <h3 className="CircleNumber">2</h3>
             </div>
             <div className="ConnectorLine"></div>
-            <div id="GQCircleThree">
-              <h3 className="GQCircleNumber">3</h3>
+            <div id="CircleThree">
+              <h3 className="CircleNumber">3</h3>
             </div>
           </div>
         </div>

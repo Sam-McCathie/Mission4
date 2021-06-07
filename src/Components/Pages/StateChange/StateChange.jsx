@@ -54,6 +54,7 @@ class StateChange extends Component {
       return (
         <div>
           <PersonalDetails />
+
           <button
             onClick={() =>
               this.setState({whichComponentToShow: "QuoteDetails"})
