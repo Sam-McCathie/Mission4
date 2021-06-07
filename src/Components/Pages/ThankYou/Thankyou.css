@@ -1,0 +1,47 @@
+.Thankyou {
+  background-color: white;
+}
+
+#Heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.ThankyouText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-bottom: 46px;
+}
+
+#Highlight {
+  color: #44b8ff;
+  text-decoration: underline;
+}
+
+#Home {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 820px;
+  padding: 19px 48px 19px 48px;
+  display: inline;
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 45px;
+}
