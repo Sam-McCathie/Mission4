@@ -16,7 +16,7 @@ h3 {
   display: flex;
 }
 
-#HeaderMain {
+#HeaderMain2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -132,7 +132,7 @@ h3 {
   transform: scale(1);
 }
 
-#QuoteOutput {
+#QuoteOutput2 {
   padding: 194px 75px 222px 76px;
   background: #c4c4c4;
   margin: 33px 0px 0 95px;

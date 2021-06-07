@@ -3,11 +3,10 @@ import "./GetQuoteFooter.css";
 
 function GetQuoteFooter() {
   return (
-    <div id="Footer">
-      {/*use props and re-use the code here -> replace paths*/}
-      <h1 className="ResetButton">RESET</h1>
-      <h1 className="DraftButton">SAVE AS DRAFT</h1>
-      <h1 className="NextButton">NEXT</h1>
+    <div id="GQFooter">
+      <h1 className="GQResetButton">RESET</h1>
+      <h1 className="GQDraftButton">SAVE AS DRAFT</h1>
+      <h1 className="GQNextButton">NEXT</h1>
     </div>
   );
 }

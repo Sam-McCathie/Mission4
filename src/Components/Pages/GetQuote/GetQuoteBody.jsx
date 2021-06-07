@@ -6,7 +6,7 @@ function GetQuoteBody() {
     <div id="Body">
       <div id="BodyLeft">
         <div id="QuoteHeader">
-          <h2 id="HeaderMain">Select Insurance Cover Type</h2>
+          <h3 id="HeaderMain2">Select Insurance Cover Type</h3>
           <h3 className="HeaderOption">Comprehensive</h3>
           <h3 className="HeaderOption">Third Party</h3>
           <h3 className="HeaderOption">Third Party, Fire & Theft</h3>
@@ -70,7 +70,7 @@ function GetQuoteBody() {
       </div>
 
       <div id="BodyRight">
-        <h3 id="QuoteOutput">QUOTE OUTPUT</h3>
+        <h3 id="QuoteOutput2">QUOTE OUTPUT</h3>
       </div>
     </div>
   );
