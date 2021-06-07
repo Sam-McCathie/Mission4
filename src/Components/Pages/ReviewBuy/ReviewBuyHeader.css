@@ -1,0 +1,115 @@
+body,
+h1 {
+  margin: 0;
+}
+
+#Heading,
+#Progress {
+  display: flex;
+}
+
+.GetQuoteHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  margin: 35px 0 16px 830px;
+}
+
+/* Circle properties */
+#StatusCircles {
+  display: flex;
+}
+
+#CircleOne,
+#CircleTwo,
+#CircleThree {
+  height: 66.08px;
+  width: 67.43px;
+  background-color: #3ec6ff;
+  border-radius: 50%;
+}
+
+#CircleOne {
+  margin-left: 488px;
+}
+
+#CircleThree {
+  border: 5px solid #000000;
+}
+
+#CircleOne,
+#CircleTwo {
+  margin-top: 5px;
+}
+
+.CircleNumber {
+  margin-top: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.ConnectorLine {
+  height: 0;
+  width: 393px;
+  border-top: 5.29px solid #3ec6ff;
+  margin-top: 35px;
+}
+
+/*Right div*/
+#HeadingRight {
+  width: 100%;
+  text-align: right;
+  margin-right: 58px; /* */
+}
+
+.HeadingRightTxt {
+  font-family: "Roboto"; /*Not working*/
+  font-style: normal; /*Not working*/
+  font-weight: normal;
+  font-size: 24px;
+  color: #3ec6ff;
+}
+
+.HelpTxt {
+  margin-top: 20px;
+}
+
+.ChatBubble {
+  height: 67px;
+  width: 67px;
+  margin: 10px 0 10px 0;
+}
+
+.CurrentProgress,
+.ProgressOption {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  letter-spacing: 0.05em;
+  margin-top: 31px;
+}
+
+.CurrentProgress {
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+.ProgressOption {
+  font-weight: normal;
+}
+
+.QuoteDetails {
+  margin-left: 445px;
+}
+
+.PersonalDetails {
+  margin-left: 290px;
+}
+
+.ReviewBuy {
+  margin-left: 270px;
+}

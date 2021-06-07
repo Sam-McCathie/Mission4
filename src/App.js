@@ -3,15 +3,16 @@ import {Route} from "react-router-dom";
 
 //Pages
 import Home from "./Components/Pages/Home/Home";
-import GetQuote from "./Components/Pages/GetQuote/GetQuote";
+// import GetQuote from "./Components/Pages/GetQuote/GetQuote";
 // import PersonalDetails from "./Components/Pages/PersonalDetails/PersonalDetails";
+import ReviewBuy from "./Components/Pages/ReviewBuy/ReviewBuy";
 
 //add exact before path
 function App() {
   return (
     <div className="App">
       <Route exact path="/" component={Home} />
-      <Route exact path="/testing" component={GetQuote} />
+      <Route exact path="/testing" component={ReviewBuy} />
     </div>
   );
 }

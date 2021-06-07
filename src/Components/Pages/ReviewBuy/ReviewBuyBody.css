@@ -1,0 +1,23 @@
+.ReviewBuyBody {
+  display: flex;
+}
+
+#FinalReviewTxt {
+  padding: 160px 357px 174px 357px;
+  background-color: #c4c4c4;
+  margin: 73px 41px 43px 211px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.VisaImg {
+  width: 585px;
+  height: 316px;
+  margin-top: 104px;
+}
