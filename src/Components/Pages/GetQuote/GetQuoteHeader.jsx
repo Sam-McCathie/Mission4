@@ -14,7 +14,7 @@ class GetQuoteHeader extends Component {
           {/*Top div left side*/}
           <div id="HeadingLeft">
             <div>
-              <h1 className="GetQuoteHeading">GET AN INSTANT QUOTE</h1>
+              <h1 className="GetQuoteHeading6">GET AN INSTANT QUOTE</h1>
             </div>
             <div id="StatusCircles">
               <div id="CircleOne" className="CurrentStatus">
@@ -25,7 +25,7 @@ class GetQuoteHeader extends Component {
                 <h3 className="CircleNumber">2</h3>
               </div>
               <div className="ConnectorLine"></div>
-              <div id="CircleThree">
+              <div id="GQCircleThree">
                 <h3 className="CircleNumber">3</h3>
               </div>
             </div>

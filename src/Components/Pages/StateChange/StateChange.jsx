@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import "./StateChange.css";
 
 //Stages of quote
+import DefaultInsurance from "../../Pages/Home/DefaultInsurance";
 import GetQoute from "../GetQuote/GetQuote";
 import PersonalDetails from "../PersonalDetails/PersonalDetails";
 import ReviewBuy from "../ReviewBuy/ReviewBuy";
@@ -17,14 +18,15 @@ class StateChange extends Component {
     if (this.state.whichComponentToShow === "StartQuote") {
       return (
         <div>
-          <h1>Get Quote</h1>
-          <button
+          <h3
+            className="StateStartButton"
             onClick={() =>
               this.setState({whichComponentToShow: "QuoteDetails"})
             }
           >
-            Forward
-          </button>
+            GET QUOTE OR BUY
+          </h3>
+          <DefaultInsurance />
         </div>
       );
     }

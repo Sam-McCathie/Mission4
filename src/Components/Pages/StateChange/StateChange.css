@@ -4,6 +4,22 @@
   display: flex;
 }
 
+.StateStartButton {
+  background: #44b8ff;
+  border-radius: 45px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  width: 223px;
+  padding: 28px 0;
+  margin: 32px 0 42px 830px;
+  cursor: pointer;
+}
+
 .GQResetButton,
 .GQDraftButton {
   font-family: Roboto;

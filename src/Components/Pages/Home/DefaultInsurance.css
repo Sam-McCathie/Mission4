@@ -3,48 +3,53 @@ h1 {
   margin: 0;
 }
 
-#Heading,
-#Progress {
+#HeadingDI {
+  margin-bottom: 100px;
+}
+
+#ProgressDI {
   display: flex;
 }
 
-.GetQuoteHeading6 {
+.GetQuoteHeadingDI {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.05em;
-  margin: 35px 0 16px 780px;
+  text-align: center;
 }
 
 /* Circle properties */
-#StatusCircles {
+#StatusCirclesDI {
   display: flex;
+  margin-left: 450px;
 }
 
-#GQCircleOne,
-#GQCircleTwo,
-#GQCircleThree {
+#CircleOneDI,
+#CircleTwoDI,
+#CircleThreeDI {
   height: 66.08px;
   width: 67.43px;
   background-color: #3ec6ff;
   border-radius: 50%;
 }
 
-#CircleOne {
+#CircleOneDI {
   margin-left: 440px;
 }
 
-.CurrentStatus {
+/* .CurrentStatusDI {
   border: 5px solid #000000;
-}
+} */
 
-#CircleTwo,
-#CircleThree {
+#CircleOneDI,
+#CircleTwoDI,
+#CircleThreeDI {
   margin: 5px 0 0 0;
 }
 
-.CircleNumber {
+.CircleNumberDI {
   margin-top: 17px;
   font-family: "Roboto";
   font-style: normal;
@@ -55,7 +60,7 @@ h1 {
   color: #ffffff;
 }
 
-.ConnectorLine {
+.ConnectorLineDI {
   height: 0;
   width: 393px;
   border-top: 5.29px solid #3ec6ff;
@@ -63,13 +68,13 @@ h1 {
 }
 
 /*Right div*/
-#HeadingRight {
+#HeadingRightDI {
   width: 100%;
   text-align: right;
   margin-right: 40px; /* */
 }
 
-.SendByEmail {
+.SendByEmailDI {
   font-family: "Roboto"; /*Not working*/
   font-style: normal; /*Not working*/
   font-weight: normal;
@@ -78,18 +83,18 @@ h1 {
   cursor: pointer;
 }
 
-.HelpTxt {
+.HelpTxtDI {
   margin-top: 20px;
 }
 
-.ChatBubble {
+.ChatBubbleDI {
   height: 67px;
   width: 67px;
   margin: 10px 0 10px 0;
 }
 
-.CurrentProgress,
-.ProgressOption {
+.CurrentProgressDI,
+.ProgressOptionDI {
   font-family: Roboto;
   font-style: normal;
   font-size: 24px;
@@ -99,28 +104,28 @@ h1 {
   margin-top: 31px;
 }
 
-.CurrentProgress {
+/* .CurrentProgress {
   font-weight: 500;
   text-decoration-line: underline;
-}
+} */
 
-.ProgressOption {
+.ProgressOptionDI {
   font-weight: normal;
 }
 
-.QuoteDetails {
+.QuoteDetailsDI {
   margin-left: 400px;
 }
 
-.PersonalDetails {
+.PersonalDetailsDI {
   margin-left: 290px;
 }
 
-.ReviewBuy {
+.ReviewBuyDI {
   margin-left: 270px;
 }
 
-.GetQuoteEmailPopup {
+.GetQuoteEmailPopupDI {
   position: absolute;
   right: 60px;
 }
