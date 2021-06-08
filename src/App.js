@@ -3,12 +3,8 @@ import {Route} from "react-router-dom";
 
 //Pages
 import Home from "./Components/Pages/Home/Home";
-// import GetQuote from "./Components/Pages/GetQuote/GetQuote";
-// import PersonalDetails from "./Components/Pages/PersonalDetails/PersonalDetails";
-// import ReviewBuy from "./Components/Pages/ReviewBuy/ReviewBuy";
-// import Thankyou from "./Components/Pages/ThankYou/Thankyou";
-// import StateChange from "./Components/Pages/StateChange/StateChange";
 import Testing from "./Components/Pages/Testing/Testing";
+import Login from "./Components/Pages/Login/LoginPage";
 
 //add exact before path
 function App() {
@@ -16,6 +12,7 @@ function App() {
     <div className="App">
       <Route exact path="/" component={Home} />
       <Route exact path="/testing" component={Testing} />
+      <Route exact path="/login" component={Login} />
     </div>
   );
 }
