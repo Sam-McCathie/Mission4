@@ -1,47 +1,62 @@
 .HomeFooterCont {
-    width: 100vw;
-    height: 700px;
+    width: 100%;
+    height: 500px;
     background-color: white;
+	position: absolute;
+	bottom: -1980px;
 }
 .ContactUsDiv{
-    width: 100vw;
+    width: 100%;
     height: 250px;
     background-color: white;
     font-family: "Nunito";
-    margin-top: 1910px;
     padding: 30px;
 }
 .ContactUs {
     width: 500px;
-    margin-left: 510px;
+    margin-left: 950px;
+	font-size: 36px;
 }
-.PhoneFooter, .Camera, .atSymbol, .Speech {
-    width: 40px;
-    height: 40px;
-    margin: 30px 200px 0px 100px;
+.PhoneFooter, .atSymbol, .Camera, .Speech {
+    width: 65px;
+    height: 65px;
+	margin-top: 70px;
 }
 .FooterTopTxt {
     display: flex;
 }
+.atSymbol {
+	margin-left: 470px;
+}
+.PhoneFooter {
+	margin-left: 200px;
+}
+.Camera {
+	margin-left: 470px;
+}
 .Speech {
-    width: 50px;
-    height: 50px;
+	width: 120px;
+	height: 120px;
+    margin-left: 300px;
 }
 .PhoneFooterTxt {
-    margin: -30px 0px 0px 150px;
+	font-size: 30px;
+    margin: -60px 0px 0px 270px;
 }
 .CameraFooterTxt {
-    margin: -30px 0px 0px 250px;
+	font-size: 30px;
+    margin: -60px 0px 0px 160px;
 }
 .atFooterTxt {
-    margin: -30px 0px 0px 130px;
+	font-size: 30px;
+    margin: -60px 0px 0px 370px;
 }
 
 /* The start of the black footer */
 
 .MainFooterContainer {
-	width: 70%;
-	/* height: 300px; */
+	width: 100%;
+	height: 380px;
 	background-color: black;
 	/* margin-top: 50px; */
 	display: flex;
@@ -53,7 +68,7 @@
     font-family: "Nunito"
 }
 .FooterContainer {
-	width:60%;
+	width:100%;
 	display: flex;
 	/* flex-direction: row; */
 	justify-content: space-between;
@@ -62,6 +77,7 @@
 	/* text-decoration: none; */
 	text-align: left;
 	font-size: 1em;
+	margin-left: 300px;
 }
 
 .FooterContainer a {
@@ -109,20 +125,25 @@
 	color: #b71234;
 }
 .FooterHeadings {
-    margin-left: -100px;
+   font-size: 20px;
+   margin-left: -100px;
 }
 .FooterHeadings1 {
     width: 250px;
-    margin-left: -50px;
+   font-size: 20px;
+   margin-left: -100px;
 }
 .FooterHeadings2 {
     width: 250px;
-    margin-left: 50px;
+   font-size: 20px;
+   margin-left: -100px;
 }
 .FooterHeadings3 {
     width: 250px;
-    margin-left: 200px;
+   font-size: 20px;
+   margin-left: -100px;
 }
 a {
     margin: 0px 0px 0px -100px;
 }
+
