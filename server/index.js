@@ -41,7 +41,7 @@ app.post("/login", (req, res) => {
         res.send({err: err});
       }
       if (result.length > 0) {
-        res.send(result);
+        res.send({message: "Welcome " + result[0].username});
       } else {
         res.send({message: "Wrong username/ password combination!"});
       }
@@ -51,5 +51,5 @@ app.post("/login", (req, res) => {
 
 //might need to change port?
 app.listen(3001, () => {
-  console.log("Server running");
+  console.log("Server is running... I hope...");
 });
