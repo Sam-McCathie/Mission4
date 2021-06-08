@@ -7,14 +7,15 @@ import Home from "./Components/Pages/Home/Home";
 // import PersonalDetails from "./Components/Pages/PersonalDetails/PersonalDetails";
 // import ReviewBuy from "./Components/Pages/ReviewBuy/ReviewBuy";
 // import Thankyou from "./Components/Pages/ThankYou/Thankyou";
-import StateChange from "./Components/Pages/StateChange/StateChange";
+// import StateChange from "./Components/Pages/StateChange/StateChange";
+import Testing from "./Components/Pages/Testing/Testing";
 
 //add exact before path
 function App() {
   return (
     <div className="App">
       <Route exact path="/" component={Home} />
-      <Route exact path="/testing" component={StateChange} />
+      <Route exact path="/testing" component={Testing} />
     </div>
   );
 }

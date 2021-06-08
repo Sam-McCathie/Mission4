@@ -69,12 +69,13 @@ h1 {
   margin-right: 40px; /* */
 }
 
-.HeadingRightTxt {
+.SendByEmail {
   font-family: "Roboto"; /*Not working*/
   font-style: normal; /*Not working*/
   font-weight: normal;
   font-size: 24px;
   color: #3ec6ff;
+  cursor: pointer;
 }
 
 .HelpTxt {
@@ -117,4 +118,9 @@ h1 {
 
 .ReviewBuy {
   margin-left: 270px;
+}
+
+.GetQuoteEmailPopup {
+  position: absolute;
+  right: 60px;
 }
