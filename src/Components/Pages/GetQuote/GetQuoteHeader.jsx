@@ -43,7 +43,12 @@ class GetQuoteHeader extends Component {
               Send by email
             </h1>
             {this.state.visible ? (
-              <div className="GetQuoteEmailPopup">
+              <div
+                className="GetQuoteEmailPopup"
+                onClick={() => {
+                  this.setState({visible: !this.state.visible});
+                }}
+              >
                 <EmailAddressPopup />
               </div>
             ) : null}

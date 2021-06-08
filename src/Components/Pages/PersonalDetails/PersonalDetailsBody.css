@@ -22,3 +22,8 @@
   color: #000000;
   text-align: center;
 }
+
+.CalendarPopupGQ {
+  position: absolute;
+  right: 20px;
+}
