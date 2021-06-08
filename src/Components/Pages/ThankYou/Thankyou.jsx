@@ -1,11 +1,14 @@
 import React from "react";
 import "./Thankyou.css";
+import Tick from "../../Images/tick.png";
 
 function Thankyou() {
   return (
     <div className="Thankyou">
-      <h1 id="Heading">THANK YOU</h1>
-      <div id="Tick"></div>
+      <h1 id="HeadingTY">THANK YOU</h1>
+      <div className="TickCircle">
+        <img src={Tick} alt="CheckMark" id="Tick" />
+      </div>
       <p className="ThankyouText">
         Thank you for choosing Turner's to insure your car. <br />
         You've made a great choice

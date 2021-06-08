@@ -1,8 +1,8 @@
 .Thankyou {
-  background-color: white;
+  background-color: #f0f0f0;
 }
 
-#Heading {
+#HeadingTY {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -11,6 +11,18 @@
   text-align: center;
   letter-spacing: 0.05em;
   color: #000000;
+}
+
+.TickCircle {
+  width: 131px;
+  height: 131px;
+  border-radius: 50%;
+  background-color: #44b8ff;
+  margin: 21px auto 31px;
+}
+
+#Tick {
+  margin: 40px 0 0 30px;
 }
 
 .ThankyouText {
