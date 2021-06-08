@@ -3,6 +3,9 @@ import Phone from './img/Phone.png';
 import Camera from './img/Camera.png';
 import atSymbol from './img/atSymbol.png';
 import Speech from './img/Speech.png';
+import Facebook from './img/Facebook.png';
+import Instagram from './img/Instagram.png';
+import Address from './img/Address.png';
 
 function HomeFooter() {
     return (
@@ -10,14 +13,14 @@ function HomeFooter() {
             <div className='ContactUsDiv'>
             <h1 className='ContactUs'>Contact Us</h1>
             <img className='PhoneFooter' src= { Phone } alt='PhoneFooter'/>
+			<img className='atSymbol' src= { atSymbol } alt='atSymbol'/>
             <img className='Camera' src= { Camera } alt='Camera'/>
-            <img className='atSymbol' src= { atSymbol } alt='atSymbol'/>
             <img className='Speech' src= { Speech } alt='Speech'/>
 
             <div className='FooterTopTxt'>
             <p className='PhoneFooterTxt'>0800001001</p>
-            <p className='CameraFooterTxt'>jaden@missionreadyhq.com</p>
-            <p className='atFooterTxt'>0800001001</p>
+            <p className='atFooterTxt'>jaden@missionreadyhq.com</p>
+            <p className='CameraFooterTxt'>0800001001</p>
             </div>
             </div>
             <footer>
@@ -132,6 +135,11 @@ function HomeFooter() {
 						<a href="https://www.turners.co.nz/Company/Contact-Us/"
 							>Contact Us</a
 						>
+						<div className='FooterSocials'>
+							<img className='Facebook' src= { Facebook } alt='Facebook'/>
+							<img className='Instagram' src= { Instagram } alt='Instagram'/>
+							<img className='Address' src= { Address } alt='Address'/>
+						</div>
 					</div>
 				</div>
 			</div>

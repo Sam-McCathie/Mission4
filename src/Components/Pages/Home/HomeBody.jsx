@@ -11,20 +11,20 @@ import Profile from './img/Profile.png';
 function HomeBody() {
     return (
         <div className='HmeBody'>
+{/* Home body has been divided into 4 Main components */}
             <div className='OurBenefits'>
                 <h1 className='OBTitle'>OUR BENEFITS</h1>
                 <img className='Body1' src= { Body1 } alt='Body1'/>
                 <img className='Body2' src= { Body2 } alt='Body2'/>
                 <img className='Body3' src= { Body3 } alt='Body3'/>
-                <div className='HmeBody2'>
                 <h4 className='BodyTitle1'>Replacement vehicle cover</h4>
                 <h4 className='BodyTitle2'>Nil excess for windscreen repairs</h4>
                 <h4 className='BodyTitle3'>Emergency travel, accommodation<br/> & repairs</h4>
-                </div>
                 <a className='QuoteBtn2' 
          href="https://www.turners.co.nz/Finance/insurance-policies/">GET A QUOTE OR BUY</a> 
-            </div>
-            <div className='ComparisonChart'>
+                </div>
+
+                <div className='ComparisonChart'>
                 <h1 className='CC'>COMPARISON CHART</h1>
                 <div className='CompChart'>
                     <div className='Line1'/>
@@ -45,14 +45,17 @@ function HomeBody() {
                     <img className='Tick6' src= { Tick } alt='Tick6'/>
                     <img className='x1' src= { x } alt='x1'/>
                     <img className='x2' src= { x } alt='x2'/>
+                    <img className='x3' src= { x } alt='x3'/>
                     <h5 className='DropDwnTitle'>SHOW MORE</h5>
                     <img className='DwnArrow' src= { DwnArrow } alt='DwnArrow'/>
+                    </div>
                  </div>
+
                  <div className='HmeBodyWhiteCont'>
+                 <div className='ContactCont'>
                  <a className='QuoteBtn3' 
                        href="https://www.turners.co.nz/Finance/insurance-policies/">GET A QUOTE OR BUY</a> 
                        <h2 className='StepsTxt'>IT ONLY TAKES 3 STEPS TO GET INSURED</h2>
-                       <div className='BodyWhiteFlex'>
                        <div className='BlueCircle1'>1</div>
                        <div className='BlueCircle2'>2</div>
                        <div className='BlueCircle3'>3</div>
@@ -62,6 +65,8 @@ function HomeBody() {
                        <h3 className='Details'>Personal details</h3>
                        <h3 className='Review'>Review then Buy</h3>
                        </div>
+                       </div>
+
                        <div className='ReviewsDiv'>
                        <h2 className='Reviews1'>REVIEWS</h2>
                        <img className='Profile' src={ Profile } alt='Profile'/>
@@ -91,11 +96,8 @@ function HomeBody() {
                     <div>
                 </div>
                 </div>
-                     
-                 </div>
             </div>
-        </div>
-
+    
     )
 }
 
